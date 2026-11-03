@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="622c68ad-b0ee-449d-9599-6422d048f5d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZnJvbnRlbmQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZnJvbnRlbmQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/product_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/product_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/query_attribute_extractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/query_attribute_extractor.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -29,7 +29,7 @@ class QueryAttributeExtractor:
             base_url=os.getenv("POE_URL"),
         )
 
-        self.model = os.getenv("OPENAI_MODEL", "gpt-5-mini")
+        self.model = os.getenv("OPENAI_MODEL")
 
         self.schema_path = Path(schema_path)
         self.schema = self._load_schema()

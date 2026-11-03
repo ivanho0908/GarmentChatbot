@@ -25,7 +25,7 @@ from src.image_upload import ImageUploadSizeLimit, MAX_IMAGE_BYTES, decode_image
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent
-load_dotenv("/.env")
+load_dotenv(PROJECT_ROOT/"/.env")
 logger = logging.getLogger(__name__)
 app = FastAPI(title="Garment Chat API")
 app.mount("/images", StaticFiles(directory=IMAGE_ROOT, follow_symlink=False), name="images")

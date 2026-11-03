@@ -40,6 +40,7 @@ class QueryAttributeExtractor:
             "sentence-transformers/all-MiniLM-L6-v2"
         ),
     ):
+        from sentence_transformers import SentenceTransformer
         self.model = SentenceTransformer(model_name)
 
         self.label_embeddings: dict[str, np.ndarray] = {}
@@ -196,9 +197,7 @@ class ProductSearch:
         self.embedder = FashionClipEmbedder()
 
         # Used only for attribute/keyword extraction.
-        self.attribute_extractor = (
-            QueryAttributeExtractor()
-        )
+        self.attribute_extractor = None
 
     @staticmethod
     def _build_filter(
@@ -418,9 +417,9 @@ class ProductSearch:
         # Use filters supplied by the caller. If no filters were
         # supplied, extract them from the user's query.
         if filters is None:
-            extracted_attributes = (
-                self.attribute_extractor.extract(query)
-            )
+            if self.attribute_extractor is None:
+                self.attribute_extractor = QueryAttributeExtractor()
+            extracted_attributes = self.attribute_extractor.extract(query)
         else:
             extracted_attributes = filters
 
