@@ -46,6 +46,8 @@ class GarmentAgent:
         self.client = openai.OpenAI(
             api_key=os.getenv("POE_API"),
             base_url=os.getenv("POE_URL"),
+            timeout=30.0,
+            max_retries=0,
         )
 
         self.model = os.getenv("OPENAI_MODEL")
