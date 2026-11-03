@@ -41,7 +41,7 @@ Commands assume your shell starts in this release directory. Use Python 3.12 (de
 python3.12 -m venv .venv
 . .venv/bin/activate
 python -m pip install -r backend/requirements.txt -r backend/requirements-api-test.txt
-cp .env.example backend/.env
+cp .env backend/.env
 ```
 
 Fill in **your own approved private values** in `backend/.env`; do not commit it. The template defaults to a compatible provider via POE_API + POE_URL + OPENAI_MODEL. For standard SDK defaults, remove/unset POE_API and POE_URL, and set OPENAI_API_KEY instead; empty strings are not the same as unset variables. You do not need both key styles. Configure QDRANT_URL, QDRANT_COLLECTION and, if required by that server, QDRANT_API. Set CLIP_MODEL to the model used for ingestion. The saved evaluation used `patrickjohncyh/fashion-clip`; current collection compatibility must be confirmed by its owner.

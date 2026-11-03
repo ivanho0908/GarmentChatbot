@@ -5,35 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="622c68ad-b0ee-449d-9599-6422d048f5d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/GarmentReferenceChatbot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GarmentReferenceChatbot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Credentials/qdrant" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SKILL.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/products.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/samples/sample_products.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/samples/sample_products.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/samples/sample_tshirt_schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/samples/sample_tshirt_schema.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/fashion_clip.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/fashion_clip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other_tools/convert_to_json.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/other_tools/image_metadata.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extract_embeding.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ingest_product.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product_search.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qdrant_connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/query_attribute_extractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zero_shot_classifier.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_product_search_wo_llm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_qdrant.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_vector_search.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests_attr_extract.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase-debug.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +41,8 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests in test_api.py.executor": "Run",
+    "Python.api.executor": "Run",
     "Python.convert_to_json.executor": "Run",
     "Python.image_metadata.executor": "Run",
     "Python.ingest_product.executor": "Run",
@@ -83,11 +63,11 @@
       <recent name="$PROJECT_DIR$/data/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hosiu\Documents\GitHub\GarmentChatbot\backend" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/other_tools" />
       <recent name="$PROJECT_DIR$/models" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/data/samples" />
     </key>
   </component>
   <component name="SharedIndexes">
