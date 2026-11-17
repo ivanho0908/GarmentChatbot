@@ -1,7 +1,8 @@
+# Private configuration is never part of the submission
+.env
+.env.*
+!.env.example
 # Private runtime configuration at any level; only templates are publishable
-backend/.env
-backend/.env
-!backend/.env
 Credentials/
 .venv/
 venv/
